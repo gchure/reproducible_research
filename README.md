@@ -7,33 +7,30 @@ The layout of this repository is described below.
 ## Layout
 
 ### Directories
-1. `code`
-    + `processing`
-    + `analysis`
-    + `exploratory`
-    + `figures`
-2. `data`
-3. `doc` 
-4. `miscellaneous`
-    + `protocols`
-    + `materials`
-    + `software details`
-5. `tests`
-6. `software_module`
-7. `templates`
+1. **`code`**:  Where all of the *executed* code lives. This includes pipelines, scripts, and figure files. 
+    + **`processing`**: Any code used to *transform* the data into another type should live here. This can include everything from parsing of text data, image segmentation/filtering, or simulations.
+    + **`analysis`**: Any code to to *draw conclusions* from an experiment or data set. This may include regression, dimensionality reduction, or calculation of various quantities.
+    + **`exploratory`**: A sandbox where you keep a record of your different approaches to transformation, interpretation, cleaning, or generation of data.
+    + **`figures`**: Any code used to generate figures for your finished work, presentations, or for any other use.
+2. **`data`**: All raw data collected from your experiments as well as copies of the transformed data from your processing code. 
+3. **`miscellaneous`**: Files that may not be code, but are important for reproducibility of your findings.
+    + **`protocols`**: A well annotated and general description of your experiments. These protocols should be descriptive enough for someone to follow your experiments independently 
+    + **`materials`**: Information regarding the materials used in your experiments or data generation. This could include manufacturer information, records of purity, and/or lot and catalog numbers.
+    + **`software details`**: Information about your computational environment that are necessary for others to execute your code. This includes details about your operating system, software version and required packages.
+5. **`tests`**: All test suites for your code. *Any custom code you've written should be thoroughly and adequately tested to make sure you know how it is working.*
+6. **`software_module`**: Custom code you've written that is *not* executed directly, but is called from files in the `code` directory. If you've written your code in Python, for example, this can be the root folder for your custom software module or simply house a file with all of your functions. 
+7. **`templates`**: Files that serve as blank templates that document the procedures taken for each experiment, simulation, or analysis routine. 
 
 
 ### Required Files
-1. `LICENSE`
-2. `README.md`
-3. `requirements.txt`
+
+1. **`LICENSE`**: A legal protection of your work. *It is important to think deeply about the licensing of your work, and is not a decision to be made lightly. See [blah blah]() for more information about licensing and choosing the correct license for your project.*
+2. **`README.md`**: A descriptive yet succinct description of your research project and information regarding the structure outlined below.
 
 ## A Pipeline for Reproducible Research 
 1. 
 
 # License
-This work is licensed under a CC0 permissive license and is in the public domain. No attribution is required and it is available for all to use, modify, disseminate, and commercialize without attribution. 
-
 <p xmlns:dct="http://purl.org/dc/terms/">
 <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
 <img src="http://i.creativecommons.org/p/mark/1.0/88x31.png"
