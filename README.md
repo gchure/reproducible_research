@@ -3,6 +3,9 @@
 ## Overview
 This repository sets out the skeleton of an organizational structure used for scientific research. It loosely follows what I have used for several of my research projects and I hope it inspires you to conduct your research in an open, reproducible, and honest manner.
 
+## How to Use
+To use this template for your research, fork this repository, change the name to something descriptive for your project, and adjust the licensing as you see fit. 
+
 ## Layout
 
 The repository is split into seven main directories, many of which have subdirectories. This structure has been designed to be easily navigable by humans and computers alike, allowing for rapid location of specific files and instructions. Within each directory is a `README.md` file which summarizes the purpose of that directory as well as some examples where necessary. This structure may not be perfect for your intended us and may need to be modified. Each section is briefly described below. 
