@@ -2,9 +2,9 @@
 ## Overview
 This repository sets out the skeleton of an organizational structure used for scientific research. It loosely follows what I have used for several of my research projects and I hope it inspires you to conduct your research in an open, reproducible, and honest manner.
 
-The layout of this repository is described below.
-
 ## Layout
+a
+The repository is split into 
 
 ### Directories
 1. **`code`**:  Where all of the *executed* code lives. This includes pipelines, scripts, and figure files. 
