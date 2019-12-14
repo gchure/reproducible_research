@@ -1,0 +1,31 @@
+# ##############################################################################
+# Authors List
+# ------------------------------------------------------------------------------
+# This YAML data file contains entry for each author involved in the work
+# This YAML data file contains information for each author of the work. The 
+# author list will be generated in the order in which they are listed below. 
+# You can  add additional fields to each person, but these will not show up
+# automatically and must then be included manually in the Liquid template code 
+# of the `page01_people.md` file.
+# ##############################################################################
+- author:
+  name: Dr. Osophila
+  link: "https://en.wikipedia.org/wiki/Drosophila"
+  title: Postdoctoral Scholar
+  img: dr_osophila.jpg
+  institute: Bicoid Institute of Development
+  other_info:
+     Email Address: "flyguy@university.edu"
+- author:
+  name: Dr. Melanie O'Gaster
+  link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
+  title: Postdoctoral Scholar
+  img: melanogaster.jpg
+  institute: French Flag Research Institute
+  other_info:
+    Current Location: Apple Juice Plates, Inc
+
+- author:
+  name: Sally Monella
+  title: Research Technician
+  institute: French Flag Research Institute

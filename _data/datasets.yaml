@@ -1,0 +1,20 @@
+- dataset:
+  storage: local
+  name: Sampling statistics from some fancy experiment
+  filetype: ".csv"
+  link: dataset1.csv
+  filesize: "24 MB"
+
+- dataset:
+  storage: local
+  name: Table of measurements from an old-school study for comparison
+  filetype: ".csv"
+  link: dataset2.csv
+
+- dataset:
+  storage: remote 
+  link: "https://data.caltech.edu"
+  DOI:  "10.1.1./journal.0000"
+  name: "Anonymized data from web scraping"
+  filetype: .zip 
+  filesize: 2 gb

@@ -1,0 +1,43 @@
+- fig:
+  title: "Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic "
+  filename: script1.py
+  desc:  Used to generate the figure1
+  pic: fig1.png
+  req:
+    - ds: 
+      storage: remote
+      title: Dataset 1
+      link: "http://data.caltech.edu"
+
+- fig:
+  title: "Fig. 2: Activated charcoal tilde kombucha. "
+  filename: script2.py
+  desc: 
+      Used to generate Figure 2, illustrating activated kombucha on tap.
+  pic: fig2.png
+  req:
+    - ds:
+      title: Kombucha tempura desconstructed measures
+      storage: local 
+      link: dataset2.csv
+    - ds: 
+      storage: local
+      title: Gravitational wave lo-fi beats to chill and study to
+      link: dataset2.csv
+
+- fig: 
+  title: "Fig. 5: Sustainable pour-over VHS"
+  filename: script1.py
+  desc:
+        Used to generate Figure 5, 
+  pic: fig3.png
+  req:
+    - ds:
+      title: Summarized dataset 1
+      storage: local
+      link: dataset1.csv
+
+    - ds:
+      title: Summarized dataset 2
+      storage: remote
+      link: "http://zenodo.org" 

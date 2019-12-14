@@ -1,0 +1,60 @@
+# ##############################################################################
+# ABOUT
+# ------------------------------------------------------------------------------
+# This data file contains all information that will be displayed on the home
+# page of your website. The fields `title` and `authors` are necessary. These
+# keys cannot be changed or they will not be displayed on the website. 
+#
+# The remainder of the fileds can be changed to fit your needs. The field name
+# (e.g. abstract, summary, etc) Will appear with as H2 headings on the website.
+# The content below will appear 
+
+title: >
+  Your Paper Title Here
+authors: >
+  Author 1, Author 2, Author 3, Author 4
+Abstract: >
+  This is a general purpose website template for conveying your data, code, and
+  overall scientific story to the general public! See the
+  [GitHub](https://github.com/gchure/reproducible_website) for the actual code
+  used to generate this website, along with lengthy documentation about how to use
+  it. This is meant to be used in tandem with the [GitHup repository template for
+  reproducible research](https://github.com/gchure/reproducible_research). The
+  Rest of this website is filled with dummy text (my favorite, [Hiptser
+  Ipsum](https://hipsum.co/)) for demonstrative purposes. It can even include
+  math like
+
+
+  $$S = k_b\ln \Omega. \tag{1}$$
+
+
+
+  Your abstract goes here.
+  Lorem ipsum dolor amet post-ironic aliquip next level vaporware, dolore
+  yuccie trust fund etsy officia blue bottle distillery ad. Raw denim swag
+  selvage wolf, direct trade air plant reprehenderit you probably haven’t heard
+  of them. Aute craft beer cray, pariatur la croix lumbersexual chillwave
+  fashion axe pug adipisicing woke banh mi. Hammock asymmetrical sustainable
+  keffiyeh biodiesel. Banjo trust fund leggings direct trade. Cronut plaid
+  shaman whatever, disrupt ad tofu minim pug dolore forage franzen glossier.
+  Small batch humblebrag ut, artisan health goth edison bulb voluptate lorem
+  dolore chillwave mumblecore iPhone craft beer ex. Enim fingerstache kale
+  chips, VHS succulents butcher meggings woke lo-fi mustache chicharrones chia
+  id consectetur. Gochujang taiyaki incididunt, chartreuse tumblr poutine banjo
+  culpa helvetica eu master cleanse migas umami. Dreamcatcher aliquip hexagon
+  disrupt deep v ugh, banjo truffaut distillery flannel la croix copper mug. Af
+  8-bit tattooed asymmetrical mumblecore swag direct trade iPhone disrupt
+  exercitation mixtape.
+Summary:  >
+  A short summary of your work goes here. Think "significance statement".
+  Nisi bushwick seitan et authentic aute, laboris blog sed in wayfarers lyft
+  plaid ut. Id aesthetic venmo, palo santo aliqua photo booth blue bottle.
+  Meditation non copper mug lomo glossier kombucha. Cred laboris meditation
+  poke sriracha street art letterpress food truck master cleanse adipisicing.
+  Hashtag affogato chambray vaporware subway tile, kogi helvetica ea tacos sint
+  brooklyn. Williamsburg waistcoat raclette seitan glossier messenger bag
+  dolore ramps, flannel magna nisi hot chicken elit pariatur kale chips.
+Acknowledgments: > 
+  Who helped you? Share the love! Valeria Rivera, Destiny Roach, Alberto 
+  Fernandez, Trenton Rowland, Sherlyn Frederick, Mallory Irwin, Jazmyn Cohen,
+  Jaylene Page, Kelsey Hayes, Sonny Wilson, Roy Taylor, Ryleigh Daugherty.
