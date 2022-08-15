@@ -24,6 +24,7 @@ Set up a short table that includes vital information about the materials used. F
 Briefly summarize the results of the experiment and report data validation outcomes here (if possible). For example,  in order to verify that an experiment didn't have any pathological results you could generate a specific plot. You can then include that plot in this section along with some comments. For example,
 
 ![](output/validation_plot.png)
+
 Highlighted distribution shows oversampling relative to other samples.
 
 

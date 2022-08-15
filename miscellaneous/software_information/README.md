@@ -16,6 +16,6 @@ Just as knowing what chemicals, instruments, or samples were used, knowing the c
 
 ## Required Software
 
-* Python:  v3.7
-* `numpy`: 1.11.2
-* `scipy`: 0.18.1
+* Python:  v3.9
+* `numpy`: 1.23.0
+* `scipy`: 1.9.0

@@ -8,20 +8,23 @@ To use this template for your research, fork this repository, change the name
 to something descriptive for your project, and adjust the licensing as you
 see fit.
 
-To use this repository for your own research, simply clone the repo using the following:
-
-```
-git clone https://github.com/gchure/reproducible_research your_repo_title
-```
+To use this repository for your own research, simply click "Use this template" 
+at the top of this page
 
 > :warning: :warning: :warning: I wouldn't advise forking this repository. As you can only fork a given repository once, there is little utility in forking this repo if you hope to use it again in your future projects :warning: :warning: :warning:
 
+Alternatively, you can clone the repository and restructure as necessary. Via 
+the command line,
+
+```
+> git clone git@github.com:gchure/reproducible_research
+```
 ## Layout
 
 The repository is split into seven main directories, many of which have subdirectories. This structure has been designed to be easily navigable by humans and computers alike, allowing for rapid location of specific files and instructions. Within each directory is a `README.md` file which summarizes the purpose of that directory as well as some examples where necessary. This structure may not be perfect for your intended us and may need to be modified. Each section is briefly described below. 
 
-### **`code`** 
-Where all of the *executed* code lives. This includes pipelines, scripts, and figure files. 
+### **`experiments`** 
+Where all of the experimental information lives, including any *executed* code. lives. This includes pipelines, scripts, and figure files. 
  * **`processing`**: Any code used to *transform* the data into another type should live here. This can include everything from parsing of text data, image segmentation/filtering, or simulations.
  * **`analysis`**: Any code to to *draw conclusions* from an experiment or data set. This may include regression, dimensionality reduction, or calculation of various quantities.
  * **`exploratory`**: A sandbox where you keep a record of your different approaches to transformation, interpretation, cleaning, or generation of data.
@@ -51,7 +54,6 @@ There are some files which I consider to be mandatory for any project.
 1. **`LICENSE`**: A legal protection of your work. *It is important to think deeply about the licensing of your work, and is not a decision to be made lightly. See [this useful site](https://choosealicense.com/) for more information about licensing and choosing the correct license for your project.*
 
 2. **`README.md`**: A descriptive yet succinct description of your research project and information regarding the structure outlined below.
-
 
 # License Information
 

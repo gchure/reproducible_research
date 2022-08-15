@@ -1,4 +1,7 @@
-# `code`
+# `experiments`
+
+This subdirectory serves houses all research associated with the project, including code used in experimental processing, analysis, exploration, and 
+visualization.
 
 It's important to keep the code that is executed separated from that which is called. The distinct difference here is that executed code should change from day-to-day or analysis to analysis. You're not necessarily making all measurements at the same time, or at the exact same concentration, or even on the same materials. As your experiments change, your code should also change to make sure you a transforming or interpreting the data correctly. 
 
